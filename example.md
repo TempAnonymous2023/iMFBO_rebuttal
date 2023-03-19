@@ -24,12 +24,12 @@ Here "GP with learnt noise" is the proposed GP with learnable noise, where the f
 
 # BO performance
 To further illustrate the effectiveness of iMFBO, we show the BO performances as in the main text.
-We perform 5 indepedent runs initialized with 4 random sample, in which 2 samples are used to query approximation model 1 and 2 are used to query approximation model 2. We illustrated the best queried objective function in one run that iMFBO guided by MFNVUCB successfully hit the global optimal while the other methods stuck in local maximum.
+We perform 5 indepedent runs initialized with 4 random sample, in which 2 samples are used to query approximation model 1 and 2 are used to query approximation model 2. The following figure illustrates the best queried objective function in one run that iMFBO guided by MFNVUCB successfully hit the global optimal while the other methods stuck in local maximum.
 <p align="center">
   <img src="./one_BO.png"/>
 </p>
-The results averaged over 5 indepedent runs is illustrated as follows:
+The best queried objective function averaged over 5 indepedent runs is illustrated as follows:
 <p align="center">
   <img src="./five_BO.png"/>
 </p>
-We can see that our proposed surrogate model can capture the global optimal had query better samples in this case.
+We can see that our proposed surrogate model and acquisition function can capture the global optimal had query better samples in this case.
