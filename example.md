@@ -32,4 +32,4 @@ The best queried objective function averaged over 5 indepedent runs is illustrat
 <p align="center">
   <img src="./five_BO.png"/>
 </p>
-We can see that our proposed surrogate model and acquisition function can capture the global optimal had query better samples in this case.
+We can see that there is a clear gap between the result of our proposed methods and seperated GP. We believe our proposed surrogate model and acquisition function can capture the global optimal and had query better samples.
